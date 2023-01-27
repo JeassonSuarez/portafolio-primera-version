@@ -1,0 +1,59 @@
+.div-contacto {
+  width: 100%;
+  color: white;
+  padding: var(--gap);
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.div-contacto > form {
+  width: 60%;
+  outline: 1px solid white;
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-contacto > form > * {
+  width: 80%;
+}
+
+.div-contacto > form > label {
+  margin-top: var(--gap);
+}
+
+.contacto-input {
+  padding: 0.3125rem;
+  background-color: var(--color-tercero);
+  color: var(--color-principal);
+  border-radius: 0.3125rem;
+}
+
+.contacto-input:focus {
+  color: var(--color-principal);
+  background-color: var(--color-secundario);
+}
+
+.enviar {
+  background-color: var(--color-secundario);
+  color: var(--color-principal);
+  border-radius: var(--border-radius);
+  margin: var(--gap) 0;
+  padding: var(--gap);
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 768px) {
+  .div-contacto > form {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media (min-width: 1024px) {
+}

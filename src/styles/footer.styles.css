@@ -1,0 +1,21 @@
+.footer{
+    background-color: white;
+    width: 80%;
+    color: black;
+    border-radius: .625rem;
+    padding: 1.5625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer>span{
+    margin-top: var(--gap);
+}
+
+@media screen and (max-width: 768px) {
+    .footer{
+        width: 98%;
+    }
+}

@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="header-div-logo logo">
         <img src={logo} alt="Logo" className="logo-img"></img>
       </div>
-      <span>Todos los derechos reservados.</span>
+      <span>&copy; Jeasson Suárez. Todos los derechos reservados.</span>
     </footer>
   );
 };

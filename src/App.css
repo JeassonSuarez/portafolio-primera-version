@@ -1,48 +1,55 @@
-:root{
-    --gap:.9375rem;
-    --h1:2em;
-    --h2:1.5em;
-    --padding-pequeno:.3125rem;
-    --color-principal: rgb(0, 0, 0);
-    --color-secundario: rgb(255, 255, 255);
-    --color-tercero:rgba(255, 255, 255, 0.608);
-    --font-type: 'Alata', sans-serif;
-    --border-radius:.9375rem;
+:root {
+  --gap: 0.9375rem;
+  --h1: 2em;
+  --h2: 1.5em;
+  --padding-pequeno: 0.3125rem;
+  --color-principal: rgb(0, 0, 0);
+  --color-secundario: rgb(255, 255, 255);
+  --color-tercero: rgba(255, 255, 255, 0.608);
+  --font-type: "Alata", sans-serif;
+  --border-radius: 0.9375rem;
 }
 
-.App{
-    background-color: #000000;
-background-image: linear-gradient(0deg, #000000 0%, #787878 100%);
+.App {
+  background-color: #000000;
+  background-image: linear-gradient(0deg, #000000 0%, #787878 100%);
 
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    gap: 1.5625rem;
-    padding: 25px;
-    font-family: var(--font-type);
-    scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 1.5625rem;
+  padding: 25px;
+  font-family: var(--font-type);
+  scroll-behavior: smooth;
 }
 
-h2{
-    width: fit-content;
-    font-size: var(--h2);
-    font-weight: bolder;
-    color: var(--color-secundario);
-    background-color: var(--color-principal);
-    padding: var(--gap);
-    box-shadow:  5px 5px 10px #666666,
-    -5px -5px 10px #ffffff;
+h2 {
+  width: fit-content;
+  font-size: var(--h2);
+  font-weight: bolder;
+  color: var(--color-secundario);
+  background-color: var(--color-principal);
+  padding: var(--gap);
+  box-shadow: 5px 5px 10px #666666, -5px -5px 10px #ffffff;
 }
 
-h1{
-    font-size: var(--h1);
-    padding: var(--padding-pequeno);
-    color: var(--color-secundario);
+h1 {
+  font-size: var(--h1);
+  padding: var(--padding-pequeno);
+  color: var(--color-secundario);
 }
 
-h3{
-    font-size: 1.17rem;
+h3 {
+  font-size: 1.17rem;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(2px);
+  }
 }

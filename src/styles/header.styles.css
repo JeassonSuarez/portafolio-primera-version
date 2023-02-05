@@ -18,14 +18,7 @@
              -0.3125rem -0.3125rem .625rem #ffffff;
 }
 
-/* @keyframes bounce {
-    from {
-      transform: translateY(0);
-    }
-    to {
-      transform: translateY(-0.3125rem);
-    }
-  } */
+
 
 .logo-img{
     object-fit: fill;
@@ -64,7 +57,10 @@
     width: 3.125rem;
     height: 3.125rem;
     object-fit: contain;
+    animation: bounce 0.6s infinite alternate;
 }
+
+
 
 .underline{
     color: black;

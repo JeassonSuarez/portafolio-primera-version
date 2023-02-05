@@ -17,11 +17,12 @@ const Header = ({isActive}) => {
         <li className="secciones-li underline"><button className="underline-btn"><a href="#contacto">CONTACTO</a></button></li>
       </ul>
       <div className="header-div-redes redes">
-        <img src={ln} alt="LinkedIn" className="redes-img"></img>
-        <img src={gato} alt="GitHub" className="redes-img"></img>
+        <a href="https://github.com/JeassonSuarez" title="GitHub" target="_blank" rel="noopener noreferrer"><img src={gato} alt="GitHub" className="redes-img"></img></a>
+        <a href="www.linkedin.com/in/jeassonsuarez" title="LinkedIn" target="_blank" rel="noopener noreferrer"><img src={ln} alt="LinkedIn" className="redes-img"></img></a>
       </div>
     </header>
   );
 };
 
 export default Header;
+

@@ -29,11 +29,11 @@ const Contactame = () => {
     <div className="div-contacto">
       <form ref={form} onSubmit={sendEmail}>
         <label htmlFor="to_name">Nombre</label>
-        <input type="text" name="to_name" className="contacto-input" />
+        <input type="text" name="to_name" id="to_name" className="contacto-input" />
         <label htmlFor="from_name">Correo Electronico</label>
-        <input type="email" name="from_name" className="contacto-input" />
+        <input type="email" name="from_name" id="from_name" className="contacto-input" />
         <label htmlFor="message">Mensaje</label>
-        <textarea name="message" className="contacto-input" />
+        <textarea name="message" id="message" className="contacto-input" />
         <input type="submit" value="Enviar" className="contacto-btn enviar"/>
       </form>
     </div>

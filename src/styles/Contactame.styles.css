@@ -1,14 +1,19 @@
 .div-contacto {
   width: 100%;
-  color: white;
+  color: black;
   padding: var(--gap);
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color: #000000;
+  background-image: linear-gradient(0deg, #000000 0%, #787878 100%);
+  
+  border-radius: var(--border-radius);
+
 }
 
 .div-contacto > form {
   width: 60%;
+  background-color: white;
   outline: 1px solid white;
   border-radius: var(--border-radius);
   display: flex;
@@ -29,7 +34,7 @@
   padding: 0.3125rem;
   background-color: var(--color-tercero);
   color: var(--color-principal);
-  border-radius: 0.3125rem;
+  border-bottom: 2px solid black;
 }
 
 .contacto-input:focus {
@@ -38,12 +43,20 @@
 }
 
 .enviar {
-  background-color: var(--color-secundario);
-  color: var(--color-principal);
+  background-color: var(--color-principal);
+  color: var(--color-secundario);
   border-radius: var(--border-radius);
   margin: var(--gap) 0;
   padding: var(--gap);
   font-weight: bolder;
+  outline: 1px solid var(--color-principal);
+  transition: background 0.5s ease;
+  cursor: pointer;
+}
+
+.enviar:hover{
+  background-color: var(--color-secundario);
+  color: var(--color-principal);
 }
 
 @media screen and (max-width: 768px) {

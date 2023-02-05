@@ -42,7 +42,7 @@
 .li-img-tec{
     display: inline-block;
     max-width: fit-content;
-    max-height: 40px;
+    cursor: pointer;
 }
 .div-presentacion{
     width: 100%;

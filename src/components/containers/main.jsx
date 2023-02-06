@@ -111,14 +111,14 @@ const Main = () => {
         nombre="Encriptador de textos"
         linkGitHub="https://github.com/JeassonSuarez/encriptador-textos"
         linkProyectoVivo="https://jeassonsuarez.github.io/encriptador-textos/"
-        descripcion="Con este proyecto, he aprendido un poco mas de metodos de JavaScrip, especificamente metodos de Arreglos, String, y Objetos JSON, con dichos metodos se ha podido realizar de una manera mas sencilla la aplicacion, pues al recorrer las llaves de un objeto usando un forof por ejemplo, se evita realizarlo de una manera mas manual, convirtiendo el algoritmo de cifrado y decifrado en pocas lineas de codigo."
+        descripcion="Con este proyecto, he aprendido un poco más de métodos de JavaScript, específicamente métodos de Arreglos, String, y Objetos JSON, con dichos métodos se ha podido realizar de una manera más sencilla la aplicación, pues al recorrer las llaves de un objeto usando un forof por ejemplo, se evita realizarlo de una manera más manual, convirtiendo el algoritmo de cifrado y descifrado en pocas líneas de código."
       />
       <Proyecto
         foto={grafo}
         nombre="Algoritmo de Floyd-Warshall"
         linkGitHub="https://github.com/JeassonSuarez/AlgoritmoDeFloyd-Warshall"
         linkProyectoVivo="https://jeassonsuarez.github.io/AlgoritmoDeFloyd-Warshall/"
-        descripcion="Este proyecto fue un trabajo realizado para ser entregado en la carrera, para la materia ciencias de la computacion, donde se expreso que se podia desarrollar en cualquier lenguaje de programacion, por lo cual se selecciono JavaScript, HTML, y CSS. Ademas se realizo la implementacion del API canvas de HTML para poder realizar el trazado del grafo que se mostrara en pantalla"
+        descripcion="Este proyecto fue un trabajo realizado para ser entregado en la carrera, para la materia ciencias de la computación, donde se expresó que se podía desarrollar en cualquier lenguaje de programación, por lo cual se seleccionó JavaScript, HTML, y CSS. Además se realizó la implementación del API canvas de HTML para poder realizar el trazado del grafo que se mostrara en pantalla."
       />
       <h2 className="info-h2-title title" id="contacto">
         Contacto

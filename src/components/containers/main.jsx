@@ -14,6 +14,7 @@ import Contactame from "../pure/Contactame";
 import Proyecto from "../pure/Poyecto";
 import prueba from "../../imagenes/Portada.png";
 import grafo from "../../imagenes/proyectos/grafo pintado.png";
+import vuelos from '../../imagenes/proyectos/existecnia vuelo.png'
 
 const Main = () => {
   return (
@@ -119,6 +120,12 @@ const Main = () => {
         linkGitHub="https://github.com/JeassonSuarez/AlgoritmoDeFloyd-Warshall"
         linkProyectoVivo="https://jeassonsuarez.github.io/AlgoritmoDeFloyd-Warshall/"
         descripcion="Este proyecto fue un trabajo realizado para ser entregado en la carrera, para la materia ciencias de la computación, donde se expresó que se podía desarrollar en cualquier lenguaje de programación, por lo cual se seleccionó JavaScript, HTML, y CSS. Además se realizó la implementación del API canvas de HTML para poder realizar el trazado del grafo que se mostrara en pantalla."
+      />
+      <Proyecto
+        foto={vuelos}
+        nombre="Modulo de gestion de vuelos con varias aerolineas"
+        linkGitHub="https://github.com/JeassonSuarez/ModuloVuelos"
+        descripcion="En este proyecto se realizo una simulacion de lo que se realizaria para poder realizar busqueda de vuelos, posibles itinerarios que exiten dependiendo los vuelos que se han creado, ademas de esto se permite la creacion de vuelos uusando una interfaz que se realiza en ReactJS, tambien se permite que hayan conexiones entre los distintos vuelos ya creados, permitiendo asi poder visualizar los distintos itinerarios de un vuelo teniendo en cuenta tanto conexiones que se refiere a la union de dos o mas vuelos, ademas de la visualizacion de los distintos segmentos que se refiere a la visualizacion de las distintas escalas de un solo vuelo. Las tecnologias que se usaron fueron ReactJS, CSS, NodeJS, ExpressJS, OracleDB"
       />
       <h2 className="info-h2-title title" id="contacto">
         Contacto

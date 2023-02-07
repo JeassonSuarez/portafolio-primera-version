@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/Proyecto.styles.css";
-import github from '../../imagenes/gato.svg'
-import vista from '../../imagenes/review.svg'
+import github from "../../imagenes/gato.svg";
+import vista from "../../imagenes/review.svg";
 
 const Poyecto = ({
   foto,
@@ -17,12 +17,36 @@ const Poyecto = ({
         <h3>{nombre}</h3>
         <p>{descripcion}</p>
         <div className="datos-links">
-          <a href={linkGitHub} title={nombre} target="_blank" rel="noopener noreferrer">
-            <img src={github} alt='GitHub' height="50" width="50" className="li-img-tec iconLink"></img>
+          <a
+            href={linkGitHub}
+            title={nombre}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={github}
+              alt="GitHub"
+              height="50"
+              width="50"
+              className="li-img-tec iconLink"
+            ></img>
           </a>
-          <a href={linkProyectoVivo} title={nombre} target="_blank" rel="noopener noreferrer">
-            <img src={vista} alt='GitHub' height="50" width="50" className="li-img-tec iconLink"></img>
-          </a>
+          {linkProyectoVivo && (
+            <a
+              href={linkProyectoVivo}
+              title={nombre}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={vista}
+                alt="GitHub"
+                height="50"
+                width="50"
+                className="li-img-tec iconLink"
+              ></img>
+            </a>
+          )}
         </div>
       </div>
     </div>

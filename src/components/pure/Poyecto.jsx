@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import "../../styles/Proyecto.styles.css";
 import github from "../../imagenes/gato.svg";
 import vista from "../../imagenes/review.svg";
@@ -10,10 +10,17 @@ const Poyecto = ({
   linkGitHub,
   linkProyectoVivo,
 }) => {
+
+  const [abrirD, setAbrirD] = useState(false);
+  const abrirDatos = () =>{
+    setAbrirD(!abrirD)
+  }
+
   return (
     <div className="div-proyecto">
-      <img loading="lazy" src={foto} alt={nombre} className="proyecto-img" />
-      <div className="proyecto-datos">
+      <img loading="lazy" src={foto} alt={nombre} className="proyecto-img" onClick={abrirDatos}/>
+      {
+        <div className={`proyecto-datos ${abrirD && "activoPD"}`}>
         <h3>{nombre}</h3>
         <p>{descripcion}</p>
         <div className="datos-links">
@@ -49,6 +56,8 @@ const Poyecto = ({
           )}
         </div>
       </div>
+        }
+      
     </div>
   );
 };

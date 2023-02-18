@@ -1,5 +1,5 @@
 # Portafolio Jeasson
-![Imagen del proyecto](https://media.licdn.com/dms/image/D4E16AQHYeGVokfyckw/profile-displaybackgroundimage-shrink_350_1400/0/1675457243084?e=1681948800&v=beta&t=7kdHWxQaUV3uuJUNRcD4jRHu1Rg_j62wcwvKEL9MVAw?raw=true)
+![Imagen del proyecto](https://github.com/JeassonSuarez/Portafolio/blob/main/src/imagenes/Portada.png?raw=true)
 
 ## Ejemplo en vivo
 - [URL-de-github-pages-de-este-proyecto](URL-de-github-pages-de-este-proyecto)

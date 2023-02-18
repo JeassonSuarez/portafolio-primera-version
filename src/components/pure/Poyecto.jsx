@@ -8,11 +8,13 @@ const Poyecto = ({
   nombre,
   descripcion,
   linkGitHub,
+  linkGitHubBack,
   linkProyectoVivo,
 }) => {
 
   const [abrirD, setAbrirD] = useState(false);
   const abrirDatos = () =>{
+    linkProyectoVivo && window.open(linkProyectoVivo, '_blank')
     setAbrirD(!abrirD)
   }
 
@@ -38,6 +40,24 @@ const Poyecto = ({
               className="li-img-tec iconLink"
             ></img>
           </a>
+          {
+            linkGitHubBack && (
+              <a
+            href={linkGitHubBack}
+            title={`${nombre}, backend`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={github}
+              alt="GitHub"
+              height="50"
+              width="50"
+              className="li-img-tec iconLink"
+            ></img>
+          </a>
+            )
+          }
           {linkProyectoVivo && (
             <a
               href={linkProyectoVivo}

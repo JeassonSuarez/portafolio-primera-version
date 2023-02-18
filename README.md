@@ -3,8 +3,8 @@
 
 ## Ejemplo en vivo
 - [Ver en vivo](https://jeassonsuarez.github.io/Portafolio/)
-- [URL-de-la-api](URL-de-la-api)
-
+<!-- - [URL-de-la-api](URL-de-la-api)
+ -->
 ## Descripción 📑
 
 Hola, soy Jeasson Suárez, desarrollador web, con enfoque en el front, entre el stack que manejo se encuentran tecnologias como Java, Javascript, ReactJS, HTML, CSS, NodeJS, ExpressJS, OracleDB, PostgreSQL, MySQL. Soy una persona que le gusta trabajar enfocado, me gusta el trabajo en equipo, y apoyar si esta en mi posibilidad hacerlo a cualquiera que lo necesite.
@@ -22,7 +22,7 @@ Mi portafolio esta desarrollado en ReactJs, y se ha implementado tecnologias com
 ## Autor ✒️
 **JEASSON ALFONSO SUÁREZ SÁNCHEZ**
 
-* [micorreo@midominio.com](jeassondev@gmail.com)
+* [jeassondev@gmail.com](jeassondev@gmail.com)
 * [LinkedIn](www.linkedin.com/in/jeassonsuarez)
 * [Porfolio web](https://jeassonsuarez.github.io/Portafolio/)
 

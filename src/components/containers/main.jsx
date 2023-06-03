@@ -114,14 +114,14 @@ const Main = () => {
         linkGitHub="https://github.com/JeassonSuarez/app-tareas-front-react"
         linkGitHubBack="https://github.com/JeassonSuarez/app-tareas-back-node-pg"
         linkProyectoVivo="https://jeassonsuarez.github.io/app-tareas-front-react/"
-        descripcion="Este proyecto se realizo debido a una necesidad propia, pues al ser estudiante constantemente tengo que realizar actividades, alguna veces son muchas y tener esto en la mente es complicado, por lo cual decidi realizar una app tipo cliente servidor que me permitiera tener mas facil el acceso a todas las actividades que debo realizar, el aplicativo se desarrollo en ReactJS, NodeJs, ExpressJS, y Postgres SQL, el frontend se encuentra desplegado en GitHun Pages, mientras que el backend esta desplegado en un servicio gratuito llamado Railway. Para usar demo usar datos como datos de inicio de sesion 'demo'"
+        descripcion="Este proyecto se realizo debido a una necesidad propia, pues al ser estudiante constantemente tengo que realizar actividades, alguna veces son muchas y tener esto en la mente es complicado, por lo cual decidi realizar una app tipo cliente servidor que me permitiera tener mas facil el acceso a todas las actividades que debo realizar, el aplicativo se desarrollo en ReactJS, NodeJs, ExpressJS, y Postgres SQL, el frontend se encuentra desplegado en GitHun Pages, mientras que el backend esta desplegado en un servicio gratuito llamado Railway."
       />
-      <Proyecto
+      {/* <Proyecto
         foto={vuelos}
         nombre="Modulo de gestion de vuelos con varias aerolineas"
         linkGitHub="https://github.com/JeassonSuarez/ModuloVuelos"
         descripcion="En este proyecto se realizo una simulacion de lo que se realizaria para poder realizar busqueda de vuelos, posibles itinerarios que exiten dependiendo los vuelos que se han creado, ademas de esto se permite la creacion de vuelos uusando una interfaz que se realiza en ReactJS, tambien se permite que hayan conexiones entre los distintos vuelos ya creados, permitiendo asi poder visualizar los distintos itinerarios de un vuelo teniendo en cuenta tanto conexiones que se refiere a la union de dos o mas vuelos, ademas de la visualizacion de los distintos segmentos que se refiere a la visualizacion de las distintas escalas de un solo vuelo. Las tecnologias que se usaron fueron ReactJS, CSS, NodeJS, ExpressJS, OracleDB"
-      />
+      /> */}
       <Proyecto
         foto={encripta}
         nombre="Encriptador de textos"
@@ -129,13 +129,13 @@ const Main = () => {
         linkProyectoVivo="https://jeassonsuarez.github.io/encriptador-textos/"
         descripcion="Con este proyecto, he aprendido un poco más de métodos de JavaScript, específicamente métodos de Arreglos, String, y Objetos JSON, con dichos métodos se ha podido realizar de una manera más sencilla la aplicación, pues al recorrer las llaves de un objeto usando un forof por ejemplo, se evita realizarlo de una manera más manual, convirtiendo el algoritmo de cifrado y descifrado en pocas líneas de código."
       />
-      <Proyecto
+      {/* <Proyecto
         foto={grafo}
         nombre="Algoritmo de Floyd-Warshall"
         linkGitHub="https://github.com/JeassonSuarez/AlgoritmoDeFloyd-Warshall"
         linkProyectoVivo="https://jeassonsuarez.github.io/AlgoritmoDeFloyd-Warshall/"
         descripcion="Este proyecto fue un trabajo realizado para ser entregado en la carrera, para la materia ciencias de la computación, donde se expresó que se podía desarrollar en cualquier lenguaje de programación, por lo cual se seleccionó JavaScript, HTML, y CSS. Además se realizó la implementación del API canvas de HTML para poder realizar el trazado del grafo que se mostrara en pantalla."
-      />
+      /> */}
       <h2 className="info-h2-title title" id="contacto">
         Contacto
       </h2>

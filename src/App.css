@@ -3,15 +3,15 @@
   --h1: 2em;
   --h2: 1.5em;
   --padding-pequeno: 0.3125rem;
-  --color-principal: rgb(0, 0, 0);
-  --color-secundario: rgb(255, 255, 255);
+  --color-principal: #F0DB4F;
+  --color-secundario: #3C3734;
   --color-tercero: rgba(255, 255, 255, 0.608);
   --font-type: "Alata", sans-serif;
   --border-radius: 0.9375rem;
 }
 
 .App {
-  background-color: #000000;
+  background-color: var(--color-secundario);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,8 +27,8 @@ h2 {
   width: fit-content;
   font-size: var(--h2);
   font-weight: bolder;
-  color: var(--color-secundario);
-  background-color: var(--color-principal);
+  color: var(--color-principal);
+  background-color: var(--color-secundario);
   padding: var(--gap);
   box-shadow: 5px 5px 10px #666666, -5px -5px 10px #ffffff;
 }

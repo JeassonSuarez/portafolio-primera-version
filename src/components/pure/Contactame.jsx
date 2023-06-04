@@ -17,7 +17,7 @@ const Contactame = () => {
       )
       .then(
         (result) => {
-          alert(result.text)
+          alert('Mensaje enviado')
         },
         (error) => {
           alert(error.text)

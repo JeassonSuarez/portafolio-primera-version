@@ -5,13 +5,13 @@
     right: 5px;
     bottom: 25px;
     border-radius: 50%;
-    background-color: rgb(160, 160, 160);
+    background-color: var(--color-principal);
     transition: all 1s ease-in-out;
     cursor: pointer;
 }
 
 .menu-svg{
-    fill: black;
+    fill: var(--color-secundario);
 }
 
 @media (min-width: 768px) {

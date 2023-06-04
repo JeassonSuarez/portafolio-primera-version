@@ -7,7 +7,7 @@
     background-color: rgb(255, 255, 255);
     border-radius: .625rem;
     padding: 25px;
-    color: black;
+    color: var(--color-secundario);
     gap: 1.5625rem;
 }
 
@@ -43,20 +43,22 @@
     display: inline-block;
     max-width: fit-content;
     cursor: pointer;
+    filter: contrast(0.5);
 }
 .div-presentacion{
     width: 100%;
-    background-color: #000000;
+    background-color: var(--color-secundario);
     padding: var(--gap);
 }
 
 .animated-text {
     width: 100%;
-    color: #ffffff;
+    color: var(--color-principal);
     overflow: hidden;
     white-space: nowrap;
     text-align: center;
     margin: auto;
+    margin-bottom: 8px;
     animation: typing 8s steps(200, end) infinite;
     animation-delay: 2s;
   }
@@ -103,6 +105,9 @@
     }
     .animated-text{
         font-size:var(--h3);
+    }
+    .presentacion-h2{
+        font-size: 22px;
     }
 }
 @media (min-width: 768px) and (max-width: 1023px) {

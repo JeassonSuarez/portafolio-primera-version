@@ -4,8 +4,8 @@
   outline: 1px solid black;
   display: flex;
   flex-wrap: wrap;
-  background-color: #000000;
-  color: var(--color-secundario);
+  background-color: var(--color-secundario);
+  color: var(--color-principal);
   border-radius: var(--border-radius);
   padding: 0 16px 16px;
 }
@@ -42,14 +42,13 @@
 
 .datos-links{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 16px;
   padding: 16px 0;
 }
 
 .iconLink {
-  filter: invert(100%);
   width: 25px;
   height: 25px;
 }
@@ -60,14 +59,15 @@
   justify-content: flex-start;
   align-items: center;
   gap: 16px;
-  outline: 1px solid white;
+  outline: 1px solid var(--color-principal);
   border-radius: var(--border-radius);
   padding: 16px;
   transition: background-color 0.3s ease;
   text-align: left;
 }
 .links-a-btn-datos-proyecto:hover{
-  background-color: rgba(118, 118, 118, 0.448);
+  background-color: var(--color-principal);
+  color: var(--color-secundario);
 }
 
 @media (max-width: 1023px) {

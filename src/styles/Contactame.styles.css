@@ -4,7 +4,7 @@
   padding: var(--gap);
   display: flex;
   justify-content: center;
-  background-color: #000000;
+  background-color: var(--color-secundario);
   /* background-image: linear-gradient(0deg, #000000 0%, #787878 100%); */
   
   border-radius: var(--border-radius);
@@ -13,8 +13,8 @@
 
 .div-contacto > form {
   width: 60%;
-  background-color: white;
-  outline: 1px solid white;
+  background-color: var(--color-secundario);
+  outline: 1px solid var(--color-principal);
   border-radius: var(--border-radius);
   display: flex;
   flex-direction: column;
@@ -28,23 +28,25 @@
 
 .div-contacto > form > label {
   margin-top: var(--gap);
+  color: var(--color-principal);
+  margin-bottom: 5px;
 }
 
 .contacto-input {
   padding: 0.3125rem;
-  background-color: var(--color-tercero);
+  background-color: var(--color-secundario);
   color: var(--color-principal);
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid var(--color-principal);
 }
 
 .contacto-input:focus {
-  color: var(--color-principal);
-  background-color: var(--color-secundario);
+  color: var(--color-secundario);
+  background-color: var(--color-principal);
 }
 
 .enviar {
-  background-color: var(--color-principal);
-  color: var(--color-secundario);
+  background-color: var(--color-secundario);
+  color: var(--color-principal);
   border-radius: var(--border-radius);
   margin: var(--gap) 0;
   padding: var(--gap);
@@ -55,8 +57,8 @@
 }
 
 .enviar:hover{
-  background-color: var(--color-secundario);
-  color: var(--color-principal);
+  background-color: var(--color-principal);
+  color: var(--color-secundario);
 }
 
 @media screen and (max-width: 768px) {

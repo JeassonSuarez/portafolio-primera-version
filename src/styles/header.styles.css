@@ -8,6 +8,7 @@
     border-radius: 10px;
     padding: 1.5625rem;
     margin: 0;
+    color: var(--color-secundario);
 }
 
 .header-div-logo{
@@ -22,6 +23,7 @@
 
 .logo-img{
     object-fit: fill;
+    filter: contrast(0.4);
 }
 
 .header-ul-list-secciones{
@@ -35,7 +37,7 @@
 }
 
 .secciones-li{
-    color: black;
+    color: var(--color-secundario);
     font-weight: 900;
     display: inline-block;
     /* margin-left: 25px; */
@@ -58,13 +60,15 @@
     height: 3.125rem;
     object-fit: contain;
     animation: bounce 0.6s infinite alternate;
+    filter: contrast(0.5);
 }
 
 
 
 .underline{
-    color: black;
+    color: var(--color-secundario);
     position: relative;
+    padding: 10px 0;
 }
 
 .underline:after{
@@ -74,7 +78,7 @@
     height: .1875rem;
     bottom: 0;
     left: 0;
-    background-color: black;
+    background-color: var(--color-secundario);
     transform: scale(0);
     transform-origin: center right;
     transition: transform 0.6s ease-in-out;

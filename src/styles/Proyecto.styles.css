@@ -57,7 +57,7 @@
 
 .links-a-btn-datos-proyecto{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 16px;
   outline: 1px solid white;
@@ -78,6 +78,17 @@
 
   .proyecto-datos{
     padding: 25px 0;
+  }
+
+  .datos-links{
+    flex-direction: column;
+  }
+
+  .links-a-btn-datos-proyecto{
+    width: 100%;
+  }
+  .proyecto-h3-nombre{
+    height: 60px;
   }
 }
 

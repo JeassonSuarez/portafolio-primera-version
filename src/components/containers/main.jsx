@@ -114,7 +114,7 @@ const Main = () => {
         nombre="Uso de REST API COUNTRIES"
         linkGitHub="https://github.com/JeassonSuarez/UsoApiRESTCOUNTRIES"
         linkProyectoVivo="https://jeassonsuarez.github.io/UsoApiRESTCOUNTRIES/"
-        descripcion="es una aplicación web desarrollada en ReactJS que te permite explorar información detallada de países de todo el mundo. Conectada al API REST Countries, podrás descubrir datos geográficos, demográficos y culturales de forma interactiva y visualmente atractiva. Explora diferentes regiones, busca países por nombre y sumérgete en su diversidad cultural con esta herramienta fácil de usar."
+        descripcion="En este proyecto se busca desarrollar una aplicacion en ReactJS que te permite explorar información detallada de países de todo el mundo. Conectada al API REST Countries, podrás descubrir datos geográficos, demográficos y culturales de forma interactiva y visualmente atractiva. Explora diferentes regiones, busca países por nombre y sumérgete en su diversidad cultural con esta herramienta fácil de usar."
       />
       <Proyecto
         foto={tareas}

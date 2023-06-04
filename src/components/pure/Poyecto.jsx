@@ -45,7 +45,7 @@ const Poyecto = ({
                 width="50"
                 className="li-img-tec iconLink"
               ></img>
-              Ir a codigo Frontend
+              Ir a código Frontend
             </a>
             {linkGitHubBack && (
               <a
@@ -62,7 +62,7 @@ const Poyecto = ({
                   width="50"
                   className="li-img-tec iconLink"
                 ></img>
-                Ir a codigo Backend
+                Ir a código Backend
               </a>
             )}
             {linkProyectoVivo && (

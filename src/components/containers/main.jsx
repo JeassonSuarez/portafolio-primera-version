@@ -26,7 +26,7 @@ const Main = () => {
         Sobre Mí
       </h2>
       <SobreMi />
-      <h2 className="info-h2-title title">Tecnologias</h2>
+      <h2 className="info-h2-title title">Tecnologías</h2>
       <div className="main-div-tecnologias">
         <img
           src={reactjsjs}
@@ -114,11 +114,11 @@ const Main = () => {
         nombre="Uso de REST API COUNTRIES"
         linkGitHub="https://github.com/JeassonSuarez/UsoApiRESTCOUNTRIES"
         linkProyectoVivo="https://jeassonsuarez.github.io/UsoApiRESTCOUNTRIES/"
-        descripcion="En este proyecto se busca desarrollar una aplicacion en ReactJS que te permite explorar información detallada de países de todo el mundo. Conectada al API REST Countries, podrás descubrir datos geográficos, demográficos y culturales de forma interactiva y visualmente atractiva. Explora diferentes regiones, busca países por nombre y sumérgete en su diversidad cultural con esta herramienta fácil de usar."
+        descripcion="En este proyecto se busca desarrollar una aplicación en ReactJS que te permite explorar información detallada de países de todo el mundo. Conectada al API REST Countries, podrás descubrir datos geográficos, demográficos y culturales de forma interactiva y visualmente atractiva. Explora diferentes regiones, busca países por nombre y sumérgete en su diversidad cultural con esta herramienta fácil de usar."
       />
       <Proyecto
         foto={tareas}
-        nombre="Aplicacion cliente-servidor de tareas"
+        nombre="Aplicación cliente-servidor de tareas"
         linkGitHub="https://github.com/JeassonSuarez/app-tareas-front-react"
         linkGitHubBack="https://github.com/JeassonSuarez/app-tareas-back-node-pg"
         linkProyectoVivo="https://jeassonsuarez.github.io/app-tareas-front-react/"

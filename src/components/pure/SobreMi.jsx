@@ -44,7 +44,7 @@ const SobreMi = () => {
             </li>
           </ul>
           <p>
-            Desde mis primeros acercamientos con HTML y Java en el colegio, mi
+            Desde mis primeros acercamientos con HTML y Java, mi
             pasión por la programación ha seguido creciendo y me ha impulsado a
             seguir aprendiendo y actualizándome constantemente en las últimas
             tecnologías y mejores prácticas del mundo del desarrollo web.

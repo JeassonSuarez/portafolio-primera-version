@@ -14,8 +14,9 @@ import Contactame from "../pure/Contactame";
 import Proyecto from "../pure/Poyecto";
 import encripta from "../../imagenes/proyectos/Portada.png";
 import grafo from "../../imagenes/proyectos/grafo pintado.png";
-import vuelos from '../../imagenes/proyectos/existecnia vuelo.png'
-import tareas from '../../imagenes/proyectos/review-tareas.png'
+import vuelos from "../../imagenes/proyectos/existecnia vuelo.png";
+import tareas from "../../imagenes/proyectos/review-tareas.png";
+import paises from "../../imagenes/proyectos/paises.png";
 
 const Main = () => {
   return (
@@ -109,6 +110,13 @@ const Main = () => {
         Proyectos
       </h2>
       <Proyecto
+        foto={paises}
+        nombre="Uso de REST API COUNTRIES"
+        linkGitHub="https://github.com/JeassonSuarez/UsoApiRESTCOUNTRIES"
+        linkProyectoVivo="https://jeassonsuarez.github.io/UsoApiRESTCOUNTRIES/"
+        descripcion="es una aplicación web desarrollada en ReactJS que te permite explorar información detallada de países de todo el mundo. Conectada al API REST Countries, podrás descubrir datos geográficos, demográficos y culturales de forma interactiva y visualmente atractiva. Explora diferentes regiones, busca países por nombre y sumérgete en su diversidad cultural con esta herramienta fácil de usar."
+      />
+      <Proyecto
         foto={tareas}
         nombre="Aplicacion cliente-servidor de tareas"
         linkGitHub="https://github.com/JeassonSuarez/app-tareas-front-react"
@@ -116,12 +124,6 @@ const Main = () => {
         linkProyectoVivo="https://jeassonsuarez.github.io/app-tareas-front-react/"
         descripcion="Este proyecto se realizo debido a una necesidad propia, pues al ser estudiante constantemente tengo que realizar actividades, alguna veces son muchas y tener esto en la mente es complicado, por lo cual decidi realizar una app tipo cliente servidor que me permitiera tener mas facil el acceso a todas las actividades que debo realizar, el aplicativo se desarrollo en ReactJS, NodeJs, ExpressJS, y Postgres SQL, el frontend se encuentra desplegado en GitHun Pages, mientras que el backend esta desplegado en un servicio gratuito llamado Railway."
       />
-      {/* <Proyecto
-        foto={vuelos}
-        nombre="Modulo de gestion de vuelos con varias aerolineas"
-        linkGitHub="https://github.com/JeassonSuarez/ModuloVuelos"
-        descripcion="En este proyecto se realizo una simulacion de lo que se realizaria para poder realizar busqueda de vuelos, posibles itinerarios que exiten dependiendo los vuelos que se han creado, ademas de esto se permite la creacion de vuelos uusando una interfaz que se realiza en ReactJS, tambien se permite que hayan conexiones entre los distintos vuelos ya creados, permitiendo asi poder visualizar los distintos itinerarios de un vuelo teniendo en cuenta tanto conexiones que se refiere a la union de dos o mas vuelos, ademas de la visualizacion de los distintos segmentos que se refiere a la visualizacion de las distintas escalas de un solo vuelo. Las tecnologias que se usaron fueron ReactJS, CSS, NodeJS, ExpressJS, OracleDB"
-      /> */}
       <Proyecto
         foto={encripta}
         nombre="Encriptador de textos"

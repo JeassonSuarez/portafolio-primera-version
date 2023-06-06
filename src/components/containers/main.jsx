@@ -17,6 +17,7 @@ import grafo from "../../imagenes/proyectos/grafo pintado.png";
 import vuelos from "../../imagenes/proyectos/existecnia vuelo.png";
 import tareas from "../../imagenes/proyectos/review-tareas.png";
 import paises from "../../imagenes/proyectos/paises.png";
+import pomodoro from "../../imagenes/proyectos/pomodoro.png";
 
 const Main = () => {
   return (
@@ -109,6 +110,14 @@ const Main = () => {
       <h2 className="info-h2-title title" id="proyectos">
         Proyectos
       </h2>
+      <Proyecto
+        foto={pomodoro}
+        nombre="Enfocate Pomodoro"
+        linkGitHub="https://github.com/JeassonSuarez/pomodoro"
+        linkProyectoVivo="https://jeassonsuarez.github.io/pomodoro/"
+        descripcion="Esta aplicación cuenta con una funcionalidad única que te permite configurar el tiempo del pomodoro, así como los intervalos de descanso corto y descanso largo. El método de pomodoro es una técnica de gestión del tiempo muy efectiva, y mi aplicación te ayuda a implementarla de manera personalizada y conveniente. Con una interfaz intuitiva y fácil de usar, puedes establecer tus propios tiempos y mantener un enfoque óptimo en tus tareas. Ya sea que estés estudiando, trabajando en un proyecto o simplemente necesites aumentar tu productividad, esta aplicación de pomodoro se convertirá en tu aliado confiable."
+      />
+
       <Proyecto
         foto={paises}
         nombre="Uso de REST API COUNTRIES"
